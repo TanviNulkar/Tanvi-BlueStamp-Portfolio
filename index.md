@@ -53,6 +53,14 @@ For your first milestone, describe what your project is and how you plan to buil
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
 
+# Starter Project
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+For my starter project, I chose the BlueStamp Arduino starter. Using a breadboard, arduino, wires, button, and motor, I created a circuit that, when the button is pressed makes the motor spin. I chose this project because I thought that it would give me practice in skills I would need for my main project, the self driving car.  The main challenge I had when creating this project was soldering. It was a struggle to solder the arduino to the sheild at the angle required, forcing me to become creative with my soldering technique. Next, I will use these skills to aid in the construction of my self driving car.
+
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
