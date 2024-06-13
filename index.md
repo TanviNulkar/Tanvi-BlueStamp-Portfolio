@@ -50,7 +50,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 
 
-The project I chose to build this summer at BlueStamp is the self drving or autonomous car. Using a plethora of sensors, the car is eventually supposed to have the ability to stop when moving obbjects are detected, stop at crosswalks, as well as drive around permanant obstacles. For my firfst milestone, I have constructed the basic wiring of the car, enabling the car to move without human intervention. The car is powered by a battery that is connected to the motors that allow the wheels to move. 
+The project I chose to build this summer at BlueStamp is the self drving, or autonomous car. Using a plethora of sensors, the car is eventually supposed to have the ability to stop when moving obbjects are detected, stop at crosswalks,and drive around permanant obstacles. For my first milestone, I have constructed the basic wiring of the car, enabling the car to move without human intervention. The car is powered by a battery that is connected to arduino, that is thus connected to the breadboard and motors. This allows for domestic power to be provided to the motors and wheels, allowing for the car to be propelled forward. 
 
 
 For your first milestone, describe what your project is and how you plan to build it. You can include:
