@@ -47,6 +47,12 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
+
+
+The project I chose to build this summer at BlueStamp is the self drving or autonomous car. Using a plethora of sensors, the car is eventually supposed to have the ability to stop when moving obbjects are detected, stop at crosswalks, as well as drive around permanant obstacles. For my firfst milestone, I have constructed the basic wiring of the car, enabling the car to move without human intervention. The car is powered by a battery that is connected to the motors that allow the wheels to move. 
+
+
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
 - Technical progress you've made so far
@@ -56,7 +62,7 @@ For your first milestone, describe what your project is and how you plan to buil
 --> 
 # Starter Project
 
-<iframe width="560" height="315" src="["https://www.youtube.com/embed/CaCazFBhYKs"](https://www.youtube.com/watch?v=RTJOozuSB_E)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src= "https://www.youtube.com/watch?v=RTJOozuSB_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
