@@ -1,11 +1,7 @@
 # Autonomous Car 
 <!--Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:-->
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
+
 
 | **Name** | **School** | **Field of Intrest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -40,17 +36,16 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
-
+-->
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/tr8M64cWmQk?si=XJblCqyB5Nor48RA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ 
 
 
 
--->
+
+
 The project I chose to build this summer at BlueStamp is the self drving, or autonomous car. The slef driving car is a vehicle that is able to nevigate through a course with no human intervention. the end result car should be able to detect and navigate around crosswalks, moving objects, static objects, other vehicles, as well as stay in the lane.  For my first milestone, I completed the construction of the car as well as the basic wiring. By connecting the motors to the arduino using the L9110 module and breadboard, I provided power through the battery allowing for the motors to move. This transfers to that the car is able to move forward, albeit with little controll. Next, I will work on getting the motors to move through code and attach sensors to allow for more control and autonomy of the car. 
 
 <!--For your first milestone, describe what your project is and how you plan to build it. You can include:
