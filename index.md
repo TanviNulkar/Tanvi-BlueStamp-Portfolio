@@ -1,5 +1,7 @@
 # Autonomous Car 
-<!--Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+The self driving car project is a miniture representation of the autonomous of vehicular transportation. With the ability to drive, navigate obstacles, modify pace to match surroundings, detect other vehicles and moving objects, the car demonstrates the future of transportation. 
+
+
 
 
 
@@ -46,7 +48,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 
 
-The project I chose to build this summer at BlueStamp is the self drving, or autonomous car. The slef driving car is a vehicle that is able to nevigate through a course with no human intervention. the end result car should be able to detect and navigate around crosswalks, moving objects, static objects, other vehicles, as well as stay in the lane.  For my first milestone, I completed the construction of the car as well as the basic wiring. By connecting the motors to the arduino using the L9110 module and breadboard, I provided power through the battery allowing for the motors to move. This transfers to that the car is able to move forward, albeit with little controll. Next, I will work on getting the motors to move through code and attach sensors to allow for more control and autonomy of the car. 
+The project I chose to build this summer at BlueStamp is the self drving, or autonomous car. The self driving carm project,  is a robot that is able to nevigate through a course with no human intervention. the end result car should be able to detect and navigate around crosswalks, moving objects, static objects, vehicles, as well as stay in the correct lane.  For my first milestone, I have constructed a basic circuit on the drive base that allows the robot car to move forward continously. From a technical standpoint, the circiuit works from power provided by the 9v battery that is then directed to the arduino and distributed to the motors. Because of this, the car is moving continuously in a straight plane with no stoping point or directional change. Some challenges I faced in the construction so far are having to restart due to not having the correct instruction manual, and reciving motors that did not have the same base speed. I eventually plan to fix this imbalance in milestone 2, along with adding directional commands using the line tracking and object deteciting sensors. 
 
 <!--For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
@@ -57,11 +59,11 @@ The project I chose to build this summer at BlueStamp is the self drving, or aut
 
 # Starter Project
 
-<iframe width="560" height="315" src= "https://www.youtube.com/watch?v=RTJOozuSB_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RTJOozuSB_E?si=Yt2DHv0V328usJpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
-For my starter project, I chose the BlueStamp Arduino starter. Using a breadboard, arduino, wires, button, and motor, I created a circuit that, when the button is pressed makes the motor spin. I chose this project because I thought that it would give me practice in skills I would need for my main project, the self driving car.  The main challenge I had when creating this project was soldering. It was a struggle to solder the arduino to the sheild at the angle required, forcing me to become creative with my soldering technique. Next, I will use these skills to aid in the construction of my self driving car.
+For my starter project, I chose the BlueStamp Arduino starter. Using a breadboard, arduino, wires, button, and motor, I created a circuit that, when the button is pressed makes the motor spin. This project works by deriving power from the computer which is distributed by the arduino to the circuit. the motor is allowed to spin when the button is pressed, and the circuit is complete.  I chose this project because I thought that it would give me practice in skills I would need for my main project, the self driving car.  The main challenge I had when creating this project was soldering. It was a struggle to solder the arduino to the sheild at the angle required, forcing me to become creative with my soldering technique. Next, I will use these skills to aid in the construction of my self driving car.
 
 
 # Code for Starter Project 
