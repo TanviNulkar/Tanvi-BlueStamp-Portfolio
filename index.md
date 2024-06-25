@@ -7,7 +7,7 @@ The self driving car project is a miniture representation of the autonomous of v
 
 | **Name** | **School** | **Field of Intrest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-|Tanvi N. | Notre Dame San Jose | BioTech |  Sophmore 
+|Tanvi N. | Notre Dame San Jose | MedTech |  Sophmore 
 
 <!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -23,23 +23,28 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+- What you hope to learn in the future after everything you've learned at BSE-->
 
 
 
-# Second Milestone
+# Second Milestone (6/26/24)
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<!--**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+-->
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
+For my second milestone, I elected to program the line sensor, ultrasonic, and object sensors. Given the application of these sensors, the robotic car is now able to navigate its environment autonomously. The new sensors allow the car to function by helping the car to detect objects, thus allowing it to manuver around obstacles. Some issues I have run ito when attatching and programming the sensors were: incorrect use of digitalWrite and analogWrite, poor sensor sensetivity, and failing to state integers in void setup. Through a dedicated week, I was able to work through these challenges and was eventually able to get my car to maneuver its environment by itself. As stated in the previous milestone, I also faced the challenge of having imbalanced motors, I was able to fix this through adjusting the speed of the individual motors. Next, for my third milestone, I plan to adjust the sensors and coding so the car is able to move smoothly. I also plan to program an initiation button to make the process of turning the car on an off more efficiant. 
+
+
+<!--For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
 -->
-# First Milestone
+# First Milestone (6/14/24)
 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/tr8M64cWmQk?si=XJblCqyB5Nor48RA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
  
@@ -48,7 +53,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 
 
-The project I chose to build this summer at BlueStamp is the self drving, or autonomous car. The self driving carm project,  is a robot that is able to nevigate through a course with no human intervention. the end result car should be able to detect and navigate around crosswalks, moving objects, static objects, vehicles, as well as stay in the correct lane.  For my first milestone, I have constructed a basic circuit on the drive base that allows the robot car to move forward continously. From a technical standpoint, the circiuit works from power provided by the 9v battery that is then directed to the arduino and distributed to the motors. Because of this, the car is moving continuously in a straight plane with no stoping point or directional change. Some challenges I faced in the construction so far are having to restart due to not having the correct instruction manual, and reciving motors that did not have the same base speed. I eventually plan to fix this imbalance in milestone 2, along with adding directional commands using the line tracking and object deteciting sensors. 
+The project I chose to build this summer at BlueStamp is the self drving, or autonomous car. The self driving car project,  is a robot that is able to navigate through a course with no human intervention. The end result car should be able to detect and navigate around crosswalks, moving objects, static objects, vehicles, as well as stay in the correct lane.  For my first milestone, I have constructed a basic circuit on the drive base that allows the robot car to move forward continously. From a technical standpoint, the circiuit works by deriving power provided by the 9v battery that is then directed to the arduino and distributed to the motors. Because of this, the car is moving continuously in a straight plane with no stoping point or directional change. Some challenges I faced in the construction so far are having to restart due to not having the correct instruction manual, and reciving motors that did not have the same base speed. I eventually plan to fix this imbalance in milestone 2, along with adding directional commands using the line tracking and object detectiting sensors. 
 
 <!--For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
@@ -56,6 +61,17 @@ The project I chose to build this summer at BlueStamp is the self drving, or aut
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
 --> 
+
+# Schematics (Main Project)
+
+<img width="661" alt="Screenshot 2024-06-24 at 12 04 18 PM" src="https://github.com/TanviNulkar/Tanvi-BlueStamp-Portfolio/assets/172317262/a6e51f5b-b35e-476f-aca7-fe73c7500c1f"> 
+
+
+
+*schematic credited to sunfounder.com*
+
+
+
 
 # Starter Project
 
@@ -96,8 +112,14 @@ void loop() {
 
 
 
-<!--# Schematics
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+<!--# Schematics (starter project)
+Here's where you'll put images of your schematics.
+[Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+-->
+
+
+
+<!--
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
