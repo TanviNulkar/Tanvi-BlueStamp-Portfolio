@@ -1,5 +1,5 @@
 # Autonomous Car 
-The self driving car project is a miniture representation of the autonomous of vehicular transportation. With the ability to drive, navigate obstacles, modify pace to match surroundings, detect other vehicles and moving objects, the car demonstrates the future of transportation. 
+The self driving car project is a miniture representation of  autonomous of vehicular transportation. With the ability to drive, navigate obstacles, modify pace to match surroundings, detect other vehicles and moving objects, the car demonstrates the future of transportation. 
 
 
 
@@ -70,7 +70,11 @@ The project I chose to build this summer at BlueStamp is the self drving, or aut
 
 *schematic credited to sunfounder.com*
 
+# Main Project (Track Construction)
 
+(insert photo here madam)
+
+For my project, I elected to construct a track for the car to run on. constructed of _____, ________, and ________, the car provides a clear and clean course for the car to demonstrate it's autonomous abilites. Littered with obstacles of multiple kinds, the car showcases its ability to handle a myriad of obstacles and maintain consistant accuracy. 
 
 
 # Starter Project
