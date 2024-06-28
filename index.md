@@ -28,7 +28,10 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE-->
 
+# Modifications 
 
+-Added on/off switch 
+-Added two more ultrasonic sensors 
 
 # Second Milestone (6/26/24)
 
