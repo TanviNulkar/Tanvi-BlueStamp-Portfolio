@@ -7,7 +7,8 @@ The self driving car project is a miniture representation of  autonomous of vehi
 
 | **Name** | **School** | **Field of Intrest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-|Tanvi N. | Notre Dame San Jose | MedTech |  Sophmore 
+|Tanvi N. | Notre Dame San Jose | MedTech |  Incoming Sophmore 
+
 
 <!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -17,10 +18,7 @@ The self driving car project is a miniture representation of  autonomous of vehi
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
--->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
+for my third milestone, I have elected to add an on/off switch and two more ultrasonic sensors. The on/off switch enables for greater convience when going to initiate the robot. The extra sensors serve to provide greater feedback to the car given its surroundings. 
 <!--
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
@@ -79,7 +77,7 @@ The project I chose to build this summer at BlueStamp is the self drving, or aut
 
 (insert photo here madam)
 
-For my project, I elected to construct a track for the car to run on. constructed of _____, ________, and ________, the car provides a clear and clean course for the car to demonstrate it's autonomous abilites. Littered with obstacles of multiple kinds, the car showcases its ability to handle a myriad of obstacles and maintain consistant accuracy. 
+For my project, I elected to construct a track for the car to run on. constructed of cardboard, paper, and tape, the car provides a clear and clean course for the car to demonstrate it's autonomous abilites. Littered with obstacles of multiple kinds, the car showcases its ability to handle a myriad of obstacles and maintain consistant accuracy. A challenge I faced during this construction was unsurity of what materials to use and what materials would be most cost effective. Eventually I settled on using paper and cardboard because it was already availible and easy to find.
 
 
 # Starter Project
