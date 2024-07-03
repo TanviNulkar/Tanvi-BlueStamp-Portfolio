@@ -10,7 +10,7 @@ The self driving car project is a miniture representation of  autonomous of vehi
 |Tanvi N. | Notre Dame San Jose | MedTech |  Incoming Sophmore 
 
 
-9
+
 
 ![Headstone Image](logo.svg)
   
