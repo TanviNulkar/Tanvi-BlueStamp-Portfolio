@@ -10,15 +10,14 @@ The self driving car project is a miniture representation of  autonomous of vehi
 |Tanvi N. | Notre Dame San Jose | MedTech |  Incoming Sophmore 
 
 
-<!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+9
 
 ![Headstone Image](logo.svg)
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-for my third milestone, I have elected to add an on/off switch and two more ultrasonic sensors. The on/off switch enables for greater convience when going to initiate the robot. The extra sensors serve to provide greater feedback to the car given its surroundings. 
+for my third milestone, and final milestone, I have smoothed out my code, added two ultrasonic sensors, and an initiation switch. in my code, I also have coded the robot to speed up or slow down based on how far it is from an obbject or environmental obstacle. the ultrasonic sensors were added to give the car a better understanding of it's environment and more control over navigation. I added the on/off switch to minimize the hassle of powering the robot on/off. From a technical standpoint, the ultrasonic sensors work by transmitting infrared waves, and based off the frequency of waves returning to the sensor, the robot is able to determine how far it is from a given object. Furthermore, the on/off switch works predominantly through code, where the arduino is told, that when the switch is turned on the car must preform the code, and when the switch is turned off to stop all movement. Reflecting on my time at BlueStamp, I faced quite a few challenges, some of them being the imbalanced motors, difficulty interpreting instructions, and unfimiliarity with electronic devices and instruments. I overcame all of these challenges through research and diligent work. On the flipside, some of my biggest triumphs at BlueStamp were finally getting the car to move in all four directions, independently being able to program my autonomous car, and implementing modifications independently. Following the conclusion of BlueStamp, I hope to constinue to learn more about robotics and how to create a furhter autonomous robots using a variety of techniques.
 <!--
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
@@ -28,8 +27,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Modifications 
 
--Added on/off switch 
--Added two more ultrasonic sensors 
+For my modifications, I have added two more ultrasonic sensors, an on/off switch, LED tail lights, LED head lights, and a car horn, to the original autonomous car design by [sunfounder.org]([url](https://docs.sunfounder.com/projects/3in1-kit-v2/en/latest/car_project/car_auto.html)). I faced a handfull of challenges during my modifications, but the main one was struggling to find usable parts given my time constraint of the program. another big challenge I faced was having enough digital and analog pins on my arduino as well as having to get creative with how ground and power was provided to the three breadboards. Some things I learned during this modification process was how to wire multiple breadboards, Ohm's law, and the difference between analogPin and digitalPin. 
 
 # Second Milestone (6/26/24)
 
