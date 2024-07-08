@@ -12,7 +12,7 @@ The self driving car project is a miniture representation of  autonomous of vehi
 
 
 
-![Headstone Image](logo.svg)
+
   
 # Final Milestone
 
