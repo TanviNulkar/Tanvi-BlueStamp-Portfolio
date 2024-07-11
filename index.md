@@ -116,6 +116,13 @@ void loop() {
   }
 ```
 
+<!--
+#Bill of Materials (starter project)
+| arduino | self explanatory| $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| male to male wires  | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| motor | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+-->
+
 
 
 <!--# Schematics (starter project)
