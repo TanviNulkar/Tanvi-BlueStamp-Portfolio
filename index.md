@@ -69,11 +69,13 @@ The project I chose to build this summer at BlueStamp is the self drving, or aut
 
 # Schematics (Main Project)
 
-<img width="661" alt="Screenshot 2024-06-24 at 12 04 18 PM" src="https://github.com/TanviNulkar/Tanvi-BlueStamp-Portfolio/assets/172317262/a6e51f5b-b35e-476f-aca7-fe73c7500c1f"> 
+
+![IMG_1438](https://github.com/user-attachments/assets/669fda2d-0687-48db-a911-bc6b13f63898)
+
+![IMG_1436](https://github.com/user-attachments/assets/886e7d45-65cd-4bb7-a7c0-4328e9a15f52)
 
 
-
-*schematic credited to sunfounder.com*
+*Schematics created by Tanvi N. on ProCreate*
 
 # Main Project (Track Construction)
 
