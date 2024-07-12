@@ -5,12 +5,15 @@ The self driving car project is a miniture representation of  autonomous of vehi
 
 
 
+
+
+
 | **Name** | **School** | **Field of Intrest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 |Tanvi N. | Notre Dame San Jose | MedTech |  Incoming Sophmore 
 
+![Tanvi_N](https://github.com/user-attachments/assets/f06afc21-4bbd-4709-82ad-e549635c4e95)
 
-<iframe width="315" height="560" src="[Tanvi_N](https://github.com/TanviNulkar/Tanvi-BlueStamp-Portfolio/assets/172317262/3640b603-1a71-4bda-ac2a-b559b23ae627)"
 
 
 
