@@ -92,11 +92,7 @@ The project I chose to build this summer at BlueStamp is the self drving, or aut
 
 *Schematics created by Tanvi N. on ProCreate*
 
-# Main Project (Track Construction)
 
-(insert photo here madam)
-
-For my project, I elected to construct a track for the car to run on. constructed of cardboard, paper, and tape, the car provides a clear and clean course for the car to demonstrate it's autonomous abilites. Littered with obstacles of multiple kinds, the car showcases its ability to handle a myriad of obstacles and maintain consistant accuracy. A challenge I faced during this construction was unsurity of what materials to use and what materials would be most cost effective. Eventually I settled on using paper and cardboard because it was already availible and easy to find.
 
 
 # Starter Project
