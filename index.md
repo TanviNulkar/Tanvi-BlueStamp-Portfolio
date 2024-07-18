@@ -154,16 +154,356 @@ Here's where you'll put images of your schematics.
 <pre style="background:#fdfdfd; border:none; height:30pc">
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
+
+
+//const int IR_RECEIVE_PIN=12;
+
+const int switchPin= 13;
+
+const int A_1B = 5;
+const int A_1A = 6;
+const int B_1B = 9;
+const int B_1A = 10;
+
+const int lineTrack=2;
+
+const int rightIR=7;
+const int leftIR=8;
+
+const int trigPin=3;
+const int echoPin=4;
+
+const int trigPin2= A4;//ultrasound back right 
+const int echoPin2= A5;
+
+const int trigPin3= A0;//ultrasound backleft 
+const int echoPin3= A3;
+
+const int trigPin4=1;
+const int echoPin4=2;
+
+const int ledpin1=12;
+const int ledpin2=11;
+
+const int buzzerPin= A2;
+
+int speedA=175;
+int speedB=133;
+int switchState=0;
+
+int speedBreakA=330;
+int speedBreakB=275;
+
+float readSensorData(){
+  digitalWrite(trigPin,LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin,HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin,LOW);
+  float distance= pulseIn (echoPin, HIGH)/58.00;
+  return distance;
+}
+
+  float readSensorData2(){
+  digitalWrite(trigPin2,LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin2,HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin2,LOW);
+  float distance= pulseIn (echoPin2, HIGH)/58.00;
+  return distance;
+}
+
+  float readSensorData3(){
+  digitalWrite(trigPin3,LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin3,HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin3,LOW);
+  float distance= pulseIn (echoPin3, HIGH)/58.00;
+  return distance;
+}
+  float readSensorData4(){
+  digitalWrite(trigPin4,LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin4,HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin4,LOW);
+  float distance= pulseIn (echoPin4, HIGH)/58.00;
+  return distance;
+}
+
+
+ void stopMove() {
+  digitalWrite(A_1B,LOW);
+  digitalWrite(A_1A,LOW);
+  digitalWrite(B_1B,LOW);
+  digitalWrite(B_1A,LOW);
+}
+  void moveForward() {
+  digitalWrite(A_1B,LOW);
+  analogWrite(A_1A,speedA);
+  analogWrite(B_1B,speedB);
+  digitalWrite(B_1A,LOW);
+  
+}
+  void moveBackwards() {
+  analogWrite(A_1B,speedA);
+  digitalWrite(A_1A,LOW);
+  digitalWrite(B_1B,LOW);
+  analogWrite(B_1A,speedB);
+}
+  void turnLeft() {
+  digitalWrite(A_1B,LOW);
+  analogWrite(A_1A,speedA);
+  digitalWrite(B_1B,LOW);
+  analogWrite(B_1A,speedB);
+}
+  void turnRight() {
+  analogWrite(A_1B,speedA);
+  digitalWrite(A_1A,LOW);
+  digitalWrite(B_1B,speedB);
+  analogWrite(B_1A,LOW);
+}
+  void moveLeft(int speed ){
+  analogWrite(A_1B,0);
+  analogWrite(A_1A,0);
+  analogWrite(B_1A,speed);
+  analogWrite(B_1B,0);
+  
+}
+  void moveRight(int speed){
+  analogWrite(A_1B,0);
+  analogWrite(A_1A,speed);
+  analogWrite(B_1A,0);
+  analogWrite(B_1B,0);
+  
+}
+  void turnBackwards(int speed){
+  analogWrite(A_1B,speed);
+  analogWrite(A_1A,0);
+  analogWrite(B_1A,0);
+  analogWrite(B_1B,speed);
+}
+  void stopTurn(){
+  analogWrite(A_1B,0);
+  analogWrite(A_1A,0);
+  analogWrite(B_1A,0);
+  analogWrite(B_1B,0);
+}
+  void backLeft(int speed6){
+  analogWrite(A_1B,speed6);
+  analogWrite(A_1A,0);
+  analogWrite(B_1A,0);
+  analogWrite(B_1B,0);
+  
+}
+  void backRight(int speed6){
+  analogWrite(A_1B,0);
+  analogWrite(A_1A,0);
+  analogWrite(B_1B,0);
+  analogWrite(B_1B,speed6); 
+
+}
+  void speedForward(){
+  analogWrite(A_1B,0);
+  analogWrite(A_1A,speedBreakA);
+  analogWrite(B_1A,speedBreakB);
+  analogWrite(B_1B,0);
+}
+
+  void ledRight(){
+  digitalWrite(11,HIGH);
+  digitalWrite(12,LOW);
+}
+  void ledLeft(){
+  digitalWrite(11,LOW);
+  digitalWrite(12,HIGH);
+}
+  void stopLed(){
+  digitalWrite(11,LOW);
+  digitalWrite(12,LOW);
+}
+  void ledLeftBlink(){
+  ledLeft();
+  delay(150);
+  ledLeft();
+  delay(150);
+  ledLeft();
+  delay(150);
+  stopLed();
+}
+  void ledRightBlink(){
+  ledRight();
+  delay(150);
+  ledRight();
+  delay(150);
+  ledRight();
+  delay(150);
+  stopLed();
+}
+  void fullStop(){
+  digitalWrite(11,HIGH);
+  digitalWrite(12,HIGH);
+}
+  void buzzerON(){
+  digitalWrite(buzzerPin,HIGH);
+}
+  void buzzerOFF(){
+  digitalWrite(buzzerPin,LOW);
+}
+
+
+
+  void setup (){
+    Serial.begin(9600);
+  //motor
+  pinMode(A_1B, OUTPUT);
+  pinMode(A_1A, OUTPUT);
+  pinMode(B_1B, OUTPUT);
+  pinMode(B_1A, OUTPUT);
+
+  pinMode(switchPin, INPUT);
+
+  //line track 
+  pinMode(lineTrack,INPUT);
   Serial.begin(9600);
-  Serial.println("Hello World!");
+
+  //IR obstacle 
+  pinMode(leftIR,INPUT);
+  pinMode(rightIR,INPUT);
+  //ultra sonic 
+  Serial.begin(9600);
+  pinMode(echoPin,INPUT);
+  pinMode(trigPin,OUTPUT);
+
+  pinMode(echoPin2,INPUT);
+  pinMode(trigPin2,OUTPUT);
+
+  pinMode(echoPin3,INPUT);
+  pinMode(trigPin3,OUTPUT);
+
+  pinMode(echoPin4,INPUT);
+  pinMode(trigPin4,OUTPUT);
+
+  //LEDs 
+  pinMode(12,OUTPUT);
+  pinMode(11,OUTPUT);
+
+  //buzzer 
+  pinMode(A2,OUTPUT);
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
 
+
+
+
+
+  void loop(){
+  int speed=200;
+  int lineColor = digitalRead(lineTrack);//0:white 1:black
+  int switchState= digitalRead(switchPin);
+
+if (switchState==HIGH){
+  
+  moveForward();
+  buzzerOFF();
+  stopLed();
+    
+    int left = digitalRead(leftIR); 
+    int right = digitalRead(rightIR);
+    int speed6=200;
+  
+  
+     if (left && !right){
+      backLeft(speed6);
+      ledLeftBlink();
+      delay(500);
+      stopLed();
+      moveBackwards();
+      moveForward();
+      delay(100);
+      
+      
+    
+
+ 
+  }else if (!left && right){
+      backRight(speed6);
+      ledRightBlink();
+      delay(500);
+      moveBackwards();
+      stopLed();
+      moveForward();
+      delay(100);
+      
+  }
+  
+
+
+    float distance=readSensorData();
+      if((distance <8 && distance >2) or (!left && !right)){
+          buzzerON();
+          delay(200);
+          buzzerOFF();
+          moveBackwards();
+          delay(500);
+          turnLeft();
+          delay(300); 
+     // }else if (distance >10 and distance<40){
+        //speedForward();
+        //delay(500);
+      }
+      
+
+    float distance2=readSensorData2();
+      if (distance2 <15 && distance2 >10){
+        moveLeft(speed);
+        moveForward();
+      }else if (distance2 <30 && distance2 >20) {
+        turnLeft();
+        delay(100);
+        ledLeft();
+        delay(500);
+        moveForward();
+        stopLed();
+      }
+
+    float distance3=readSensorData3();
+      if (distance3 <15 && distance3 >10){
+       moveRight(speed);
+       moveForward();
+      }else if (distance3<30 && distance3>20){
+      turnRight();
+      delay(200);
+      ledRight();
+      delay(500);
+      moveForward();
+      stopLed();
+    }
+    float distance4=readSensorData();
+      if (distance <5){
+       delay(100);
+       fullStop();
+       delay(200);
+       stopMove();
+       delay(200);
+       moveLeft(speed);
+       moveForward();
+       delay(200);
+       stopLed();
+    }
+   
+      
 }
+  
+  else if (switchState==LOW) {
+  stopMove();
+  fullStop();
+
+  }
+  }
+
 ```
 </pre>
 
