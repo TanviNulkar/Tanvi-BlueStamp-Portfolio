@@ -1,5 +1,5 @@
 # Autonomous Car 
-<h2> The self driving car project is a miniature representation of  autonomous of vehicular transportation. With the ability to drive, navigate obstacles, modify pace to match surroundings, detect other vehicles and moving objects, the car demonstrates the future of transportation. </h2>
+<h3> The self driving car project is a miniature representation of  autonomous of vehicular transportation. With the ability to drive, navigate obstacles, modify pace to match surroundings, detect other vehicles and moving objects, the car demonstrates the future of transportation. </h3>
 
 
 
@@ -14,8 +14,7 @@
 
 
 
-
-![Tanvi_N Medium](https://github.com/user-attachments/assets/cba16d9a-66a4-4d3e-8b66-dd4184a04624)
+ ![Tanvi_N Medium](https://github.com/user-attachments/assets/cba16d9a-66a4-4d3e-8b66-dd4184a04624)
 
 
 
@@ -31,6 +30,15 @@ from the standpoint of sensors, the additional ultrasonic sensors allow for the 
 To support the addition of hardware, I also 3D printed 4 standoffs and 2 upper levels to support the 2 additional untrasonic sensors, piezobuzzer, and all of the electronics that access power and ground through the elevated breadboards. The levels also served the purpose of creating space closer to the acrylic board for pieces such as additional breadboards, the initiation switch, and the LED wiring. 
 
 overall, the modifications I have added to the original car kit or design by sunfounder.org, have all been added with the aim of giving the car the level of control and apperence of modern day autonomouds vehicles. All modifications were added to my current ability as an engineer. If given more time, I would hve attempted to add a covering for all the wires to give a streamlined apperence, and gone back to the code to make it smoother and more efficiant. 
+
+<h2> 3D printing</h2>
+
+When adding my modifications, it soon became clear that I was running out of space on the bottom acrylic plate. To solve this issue I resolved to add a elevated layer, or level, to allow for space to mount the extra electronics and sensors. To create this layer, I initially elected to construct the structure using custom printed standoffs, to act as pillars, and cardboard to be the main platform (figure 1a). This design was quite durable and sturdy, but as time drew on, I desired for the apperence of the structure to look more finished and elevated, thus I turned to 3D printing to create this custom platforms. 
+
+
+![IMG_9292 Small](https://github.com/user-attachments/assets/b46c6b1d-69c5-41d1-8fcc-ffd3755a77b2)
+
+figure 1a. original design for upper platform consisted of handcut cardboard designed to fit snuggly against the arduino, with a hole for the power cord and usb cable. 
 
 
   
@@ -544,7 +552,9 @@ void loop() {
 
 
 #Bill of Materials (starter project)
-| arduino uno | | ~$27.60 | [LINK]([url](https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/ref=asc_df_B008GRTSV6/?tag=hyprod-20&linkCode=df0&hvadid=692875362841&hvpos=&hvnetw=g&hvrand=16666681611808991928&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-2281435179978&psc=1&mcid=8d4415853f19330eb6cb8c1e7f18a8ed&hvocijid=16666681611808991928-B008GRTSV6-&hvexpln=73&gad_source=1))
+|**Part**|**Notes**|**Link**|
+|:-:|:-:|:-:|
+| arduino uno | | ~$27.60 | [LINK]([url](https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/ref=asc_df_B008GRTSV6/?tag=hyprod-20&linkCode=df0&hvadid=692875362841&hvpos=&hvnetw=g&hvrand=16666681611808991928&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-2281435179978&psc=1&mcid=8d4415853f19330eb6cb8c1e7f18a8ed&hvocijid=16666681611808991928-B008GRTSV6-&hvexpln=73&gad_source=1))|
 |QTEATAK button  | used to initiate motors | $5.99 for a set of one hundred and twenty |[LINK]([url](https://www.amazon.com/QTEATAK-Momentary-Tactile-Button-Switch/dp/B07VSNN9S2/ref=asc_df_B07VSNN9S2/?tag=hyprod-20&linkCode=df0&hvadid=692875362841&hvpos=&hvnetw=g&hvrand=3902747494344092328&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-2281435178058&psc=1&mcid=3105465e56ba3d87acce02ed42044e08&hvocijid=3902747494344092328-B07VSNN9S2-&hvexpln=73&gad_source=1)) |
 | DC motor || $6.99 for a pack of six | [LINK]([url](https://www.amazon.com/Topoox-15000-16500RPM-Electric-Science-Experiments/dp/B073Q2Y3RC/ref=asc_df_B073Q2Y3RC/?tag=hyprod-20&linkCode=df0&hvadid=692875362841&hvpos=&hvnetw=g&hvrand=2476635652248431690&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-2281435178098&psc=1&mcid=57669cff5557399f96c7b69fe1a26a6f&hvocijid=2476635652248431690-B073Q2Y3RC-&hvexpln=73&gad_source=1)) |
 
