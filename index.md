@@ -16,7 +16,11 @@ The self driving car project is a miniture representation of  autonomous of vehi
 
 
 
-# Modifications 
+# Modifications (7/17/24)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8s18SXfUqbU?si=mNxjnmbxFKdWFP-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 the car I elected to build this summer at BlueStamp engineering is based off the autonomous car project by sunfounder.org. From their original design, I have modified the project significantly. I have added three more ultrasonic sensors, headlights, side-lights, tail-lights, programmed the tail-lights, a piezzo passive buzzer, and a programmed on/off switch. in addition to adding components, I also removed the line track sensor seen in the original design. This was removed because it no longerwas required for my desired outcome for the project. I added all of the modifications listed prior to give the car the ability to preform alike to modern day self driving cars, such as Tesla and Waymo. This led to the incorporation of more sensors and physical features, both that would allow for greater representation. 
 
 from the standpoint of sensors, the additional ultrasonic sensors allow for the car to have a greatrer understanding of its own environment. This added feature is accompanied by the removal of the line track sensor, as I deemed it unecessary and was therefore using much needed GPIO pins. For the physical features, I added the headlights, sidelights, and tailights, to further give the impression that the car was a model of the larger and much more complex self driving cars. the headlights and sidelights run through a basic circuit by being connected to power and ground. in the case of the tailights, the tailights are programmed to signal to spectators the direction the car is to turn. The left and right lights are individually programmed. this gives the car the ability to signal left and rght movements, as well as breaking and stopping. For audio features, I had the desire to add a 'horn'. My vision for the horn was for it to go off, or produce sound, when the car detected an object that was too close (less than 5 inches). For this purpose I have used the piezo passive buzzer. This buzzer has been programmed to go off whenever an object is detected within 3 inches of the frontmost ultrasonic sensor. Finally, for convienence purposes, I have also added an initiation or on/off switch. This is to allow for greater controll over powering on and off, as well as further demonstration of the tailight coding. through my code, I have programmed the car to only preform its designated functions when the switch is turned on, and to stop all functions when off. the car is also programmed to have both tailights on when the initiation switch is put into the 'off' state. 
@@ -27,24 +31,15 @@ overall, the modifications I have added to the original car kit or design by sun
 
 
   
-# Final Milestone
+# Final Milestone (7/10/24)
 
 
-for my third milestone, and final milestone, I have smoothed out my code, added three more ultrasonic sensors, and an initiation switch.  the ultrasonic sensors were added to give the car a better understanding of it's environment and more control over navigation. I added the on/off switch to minimize the hassle of powering the robot on/off. From a technical standpoint, the ultrasonic sensors work by transmitting infrared waves, and based off the frequency of waves returning to the sensor, the robot is able to determine how far it is from a given object. Furthermore, the on/off switch works predominantly through code, where the arduino is told, that when the switch is turned on the car must preform the code, and when the switch is turned off to stop all movement. Reflecting on my time at BlueStamp, I faced quite a few challenges, some of them being the imbalanced motors, difficulty interpreting instructions, and unfimiliarity with electronic devices and instruments. I overcame all of these challenges through research and diligent work. On the flipside, some of my biggest triumphs at BlueStamp were finally getting the car to move in all four directions, independently being able to program my autonomous car, and implementing modifications independently. Following the conclusion of BlueStamp, I hope to constinue to learn more about robotics and how to create a furhter autonomous robots using a variety of techniques.
+for my third milestone, and final milestone, I have smoothed out my code, added three more ultrasonic sensors, and an initiation switch.  the ultrasonic sensors were added to give the car a better understanding of it's environment and more control over navigation. I added the on/off switch to minimize the hassle of powering the robot on/off. From a technical standpoint, the ultrasonic sensors work by transmitting infrared waves, and based off the frequency of waves returning to the sensor, the robot is able to determine how far it is from a given object. Furthermore, the on/off switch works predominantly through code, where the arduino is told, that when the switch is turned on the car must preform the code, and when the switch is turned off to stop all movement. Reflecting on my time at BlueStamp, I faced quite a few challenges, some of them being the imbalanced motors, difficulty interpreting instructions, and unfimiliarity with electronic devices and instruments. I overcame all of these challenges through research and diligent work. On the flipside, some of my biggest triumphs at BlueStamp were finally getting the car to move in all four directions, independently being able to program my autonomous car, and implementing modifications independently. Following the conclusion of BlueStamp, I hope to constinue to learn more about robotics and how to create a further autonomous robots using a variety of techniques.
 
 
 # Key Lessons Learned
 
 over the course of my six weeks at BlueStamp engineering, I learned many lessons that I will carry on into my future engineering endevors. However, there are some lessons that have resonated with me the most. These lessons are to: always save code, always save code under a deciperable or destinguishable tag, closely document changes made, pay close attention to wiring (as to not short circuit electronics), and to proceeed with a calm and patient mindset. These particular lessons are those that I have learned through major errors that either led to me having to restart a particular componet or to me wasting valuable time. Given these lesssons learned, I will undoubtedly be using them in the future to prevent any mistakes alike to the ones I made during this project. 
-<!--
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE-->
-
-
-
 
 
 
