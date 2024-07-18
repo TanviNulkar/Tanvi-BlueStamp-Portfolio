@@ -93,63 +93,7 @@ The project I chose to build this summer at BlueStamp is the self drving, or aut
 
 
 
-
-# Starter Project
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RTJOozuSB_E?si=Yt2DHv0V328usJpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-
-For my starter project, I chose the BlueStamp Arduino starter. Using a breadboard, arduino, wires, button, and motor, I created a circuit that, when the button is pressed makes the motor spin. This project works by deriving power from the computer which is distributed by the arduino to the circuit. the motor is allowed to spin when the button is pressed, and the circuit is complete.  I chose this project because I thought that it would give me practice in skills I would need for my main project, the self driving car.  The main challenge I had when creating this project was soldering. It was a struggle to solder the arduino to the sheild at the angle required, forcing me to become creative with my soldering technique. Next, I will use these skills to aid in the construction of my self driving car.
-
-
-# Code for Starter Project 
-
-
-```c++
-const int buttonPin=2;  //the number of the pushbutton pin
-const int motorPin=9;  // the number of the motor pin
-
-//variables will change:
-int buttonState=2;  //variable for reading the pushbutton status
-
-void setup() {
-  pinMode(motorPin,OUTPUT);
-  pinMode(buttonPin,INPUT);
- }
-
-void loop() {
-  buttonState = digitalRead(buttonPin);
-  //check if the pushbutton is pressed. If it is, the buttonState is HIGH:
-    if(buttonState == LOW) {
-      // turn MOTOR on:
-        digitalWrite(motorPin, LOW);
-      } else if(buttonState == HIGH) {
-        // turn MOTOR off:
-        digitalWrite(motorPin, HIGH);
-      }
-  }
-```
-
-<!--
-#Bill of Materials (starter project)
-| arduino | self explanatory| $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| male to male wires  | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| motor | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
--->
-
-
-
-<!--# Schematics (starter project)
-Here's where you'll put images of your schematics.
-[Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
--->
-
-
-
-
-
-# Code
+# Code for Main Project #
 
 <pre style="background:#fdfdfd; border:none; height:30pc">
 
@@ -542,6 +486,69 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Acrylic plate | main component for car body |
 | Jump wires M/M | wiring  |
 | Jump Wires F/F | wiring |
+
+
+
+
+
+
+# Starter Project
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RTJOozuSB_E?si=Yt2DHv0V328usJpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+For my starter project, I chose the BlueStamp Arduino starter. Using a breadboard, arduino, wires, button, and motor, I created a circuit that, when the button is pressed makes the motor spin. This project works by deriving power from the computer which is distributed by the arduino to the circuit. the motor is allowed to spin when the button is pressed, and the circuit is complete.  I chose this project because I thought that it would give me practice in skills I would need for my main project, the self driving car.  The main challenge I had when creating this project was soldering. It was a struggle to solder the arduino to the sheild at the angle required, forcing me to become creative with my soldering technique. Next, I will use these skills to aid in the construction of my self driving car.
+
+
+# Schematic for starter project
+![IMG_1440 Medium](https://github.com/user-attachments/assets/ea2d11c0-ed12-4328-918c-d5b5ac25806e)
+
+
+# Code for Starter Project 
+
+
+```c++
+const int buttonPin=2;  //the number of the pushbutton pin
+const int motorPin=9;  // the number of the motor pin
+
+//variables will change:
+int buttonState=2;  //variable for reading the pushbutton status
+
+void setup() {
+  pinMode(motorPin,OUTPUT);
+  pinMode(buttonPin,INPUT);
+ }
+
+void loop() {
+  buttonState = digitalRead(buttonPin);
+  //check if the pushbutton is pressed. If it is, the buttonState is HIGH:
+    if(buttonState == LOW) {
+      // turn MOTOR on:
+        digitalWrite(motorPin, LOW);
+      } else if(buttonState == HIGH) {
+        // turn MOTOR off:
+        digitalWrite(motorPin, HIGH);
+      }
+  }
+```
+
+<!--
+#Bill of Materials (starter project)
+| arduino | self explanatory| $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| male to male wires  | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| motor | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+-->
+
+
+
+<!--# Schematics (starter project)
+Here's where you'll put images of your schematics.
+[Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+-->
+
+
+
 
 
 <!--
