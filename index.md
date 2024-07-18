@@ -33,13 +33,22 @@ overall, the modifications I have added to the original car kit or design by sun
 
 <h2> 3D printing</h2>
 
-When adding my modifications, it soon became clear that I was running out of space on the bottom acrylic plate. To solve this issue I resolved to add a elevated layer, or level, to allow for space to mount the extra electronics and sensors. To create this layer, I initially elected to construct the structure using custom printed standoffs, to act as pillars, and cardboard to be the main platform (figure 1a). This design was quite durable and sturdy, but as time drew on, I desired for the apperence of the structure to look more finished and elevated, thus I turned to 3D printing to create this custom platforms. 
+When adding my modifications, it soon became clear that I was running out of space on the bottom acrylic plate. To solve this issue I resolved to add a elevated layer, or level, to allow for space to mount the extra electronics and sensors. To create this layer, I initially elected to construct the structure using custom printed standoffs, to act as pillars, and cardboard to be the main platform (figure 1a). This design was quite durable and sturdy, but as time drew on, I desired for the apperence of the structure to look more finished and elevated, thus I turned to 3D printing to create this custom platforms. (figure 1b). To secure the platforms, I printed the standoffs to screw into some extra holes on the acrylic plate. I had a few issues with this, such as the standoffs being to wide or tiny for the screws to fasten the standoffs through the plate. Eventually, I learned that I have accidently turned off some features that were leading to prints being printed a couple millimeters larger than the original design. 
+
+<h2> Programmed LED Tailights</h2>
+
+One of the most significant and time intesive modifications I have added to my project by far, are the tailights. The tailights function just as those in real cars, signaling to spectators when the car is turning left or right, moving backwards or when the car is coming to a full stop. I have individually programmed the left and right tailights, which are each connected to ground and their own respective GPIO pins. 
+ 
+  
+  
+ [IMG_9292 Small](https://github.com/user-attachments/assets/b46c6b1d-69c5-41d1-8fcc-ffd3755a77b2) 
+ figure (1a): original cardboard platforms supported by 3d printed standoffs
+
+ ![IMG_9436 Small](https://github.com/user-attachments/assets/55faa3c9-3ca0-49f0-a32a-4e61d68051f1)
+ figure(1b): final 3D printed platforms with all electronics mounted 
 
 
-![IMG_9292 Small](https://github.com/user-attachments/assets/b46c6b1d-69c5-41d1-8fcc-ffd3755a77b2)
-
-figure 1a. original design for upper platform consisted of handcut cardboard designed to fit snuggly against the arduino, with a hole for the power cord and usb cable. 
-
+ 
 
   
 # Final Milestone (7/10/24)
@@ -512,6 +521,7 @@ For my starter project, I chose the BlueStamp Arduino starter. Using a breadboar
 
 # Schematic for starter project
 ![IMG_1440 Medium](https://github.com/user-attachments/assets/ea2d11c0-ed12-4328-918c-d5b5ac25806e)
+*schematic created by Tanvi N. With procreate*
 
 
 # Code for Starter Project 
@@ -542,10 +552,7 @@ void loop() {
   }
 ```
 
-# Schematics (starter project)
-![IMG_1440 Medium](https://github.com/user-attachments/assets/6f4a5f9a-cd6b-422e-98b5-50d15917670b)
 
-*schematic created by Tanvi N. with procreate*
 
 
 
