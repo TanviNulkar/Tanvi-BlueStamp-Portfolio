@@ -12,7 +12,10 @@ The self driving car project is a miniture representation of  autonomous of vehi
 |:--:|:--:|:--:|:--:|
 |Tanvi N. | Notre Dame San Jose | MedTech |  Incoming Sophmore 
 
-![Tanvi_N](https://github.com/user-attachments/assets/f06afc21-4bbd-4709-82ad-e549635c4e95)
+
+
+
+![Tanvi_N Medium](https://github.com/user-attachments/assets/cba16d9a-66a4-4d3e-8b66-dd4184a04624)
 
 
 
@@ -80,9 +83,10 @@ The project I chose to build this summer at BlueStamp is the self drving, or aut
 # Schematics (Main Project)
 
 
-![IMG_1438](https://github.com/user-attachments/assets/669fda2d-0687-48db-a911-bc6b13f63898)
 
-![IMG_1436](https://github.com/user-attachments/assets/886e7d45-65cd-4bb7-a7c0-4328e9a15f52)
+![IMG_1438 Medium](https://github.com/user-attachments/assets/73f62bb9-f830-4b09-85c9-f3d475f6b432)
+
+![IMG_1436 Medium](https://github.com/user-attachments/assets/06761793-e918-4066-9cab-fa058cca8c9d)
 
 
 *Schematics created by Tanvi N. on ProCreate*
@@ -143,10 +147,11 @@ Here's where you'll put images of your schematics.
 
 
 
-<!--
+
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+
+<pre style="background:#fdfdfd; border:none; height:30pc">
 
 ```c++
 void setup() {
@@ -160,17 +165,46 @@ void loop() {
 
 }
 ```
+</pre>
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
-| **Part** | **Note** | **Price** | **Link** |
-|:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
+<h2> Additional Materials Used </h2>
+
+ | **Part** | **Note** | **Price** | **Link** |
+|:--:|:--:|:--:|:--:|
+| Ultrasonic sensor x4 | obstacle detection| ~$4.50 each | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+|LED x8 | tailights, headlights, and sidlights| ~$0.34 each or multicolored pack of 100 for ~$6.35| <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| piezzo passive buzzer | horn equivelent| ~$1.73| <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Mini Breadbboard x6| | ~$4.00 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> | 
+|on/off switch|  | $8.99 for a pack of ten| <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 9v battery|  | $9.51 for a pack of ten | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+
+<h2> Materials used from Sunfounder iot/ self driving car kit </h2>
+
+[SunFounder self driving car kit ]([url](https://www.sunfounder.com/products/sunfounder-3-in-1-iot-smart-car-learning-ultimate-starter-kit?_pos=1&_sid=a6fa33b13&_ss=r))
+
+
+|**Part**|**Note**|
+|:--:|:--:|
+| 220 OHM resistors | control current to LED's |
+| M3x6 screws | to fasten somponents  | 
+| M3x30 screws | to fasten larger components | 
+| M3 nuts  | hold screws in place | 
+| Arduino Uno Board | |
+| L9110 module  | motor driver | 
+| TT wheel | | 
+| TT motor| to move the wheels| 
+| 1" universal wheels |help the car supposrt itself| 
+| Acrylic plate | main component for car body |
+| Jump wires M/M | wiring  |
+| Jump Wires F/F | wiring |
+
+
+<!--
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
