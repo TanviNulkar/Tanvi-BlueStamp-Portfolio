@@ -1,5 +1,5 @@
 # Autonomous Car 
-The self driving car project is a miniture representation of  autonomous of vehicular transportation. With the ability to drive, navigate obstacles, modify pace to match surroundings, detect other vehicles and moving objects, the car demonstrates the future of transportation. 
+<h2> The self driving car project is a miniture representation of  autonomous of vehicular transportation. With the ability to drive, navigate obstacles, modify pace to match surroundings, detect other vehicles and moving objects, the car demonstrates the future of transportation. </h2>
 
 
 
@@ -80,7 +80,7 @@ The project I chose to build this summer at BlueStamp is the self drving, or aut
 - What your plan is to complete your project
 --> 
 
-# Schematics (Main Project)
+# Schematics for Autonomous Car 
 
 
 
@@ -93,7 +93,7 @@ The project I chose to build this summer at BlueStamp is the self drving, or aut
 
 
 
-# Code for Main Project #
+# Code for Autonomous Car 
 
 <pre style="background:#fdfdfd; border:none; height:30pc">
 
@@ -451,10 +451,7 @@ if (switchState==HIGH){
 ```
 </pre>
 
-# Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
-
+# Bill of Materials for Autonomous Car 
 
 <h2> Additional Materials Used </h2>
 
@@ -469,7 +466,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 <h2> Materials used from Sunfounder iot/ self driving car kit </h2>
 
-[SunFounder self driving car kit ]([url](https://www.sunfounder.com/products/sunfounder-3-in-1-iot-smart-car-learning-ultimate-starter-kit?_pos=1&_sid=a6fa33b13&_ss=r))
+[SunFounder self driving car kit - LINK]([url](https://www.sunfounder.com/products/sunfounder-3-in-1-iot-smart-car-learning-ultimate-starter-kit?_pos=1&_sid=a6fa33b13&_ss=r))
 
 
 |**Part**|**Note**|
@@ -492,7 +489,11 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 
 
-# Starter Project
+# Starter Project -- BlueStamp Arduino Starter
+<h2> The BlueStamp Arduino Starter is a loosly guided project that directs students through the basics of coding, circuits, wiring, and sensors. Students are educated on various outputs and inputs they can use to make their projects as they wish.</h2>
+
+
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RTJOozuSB_E?si=Yt2DHv0V328usJpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -533,19 +534,22 @@ void loop() {
   }
 ```
 
-<!--
+# Schematics (starter project)
+![IMG_1440 Medium](https://github.com/user-attachments/assets/6f4a5f9a-cd6b-422e-98b5-50d15917670b)
+
+*schematic created by Tanvi N. with procreate*
+
+
+
+
+
 #Bill of Materials (starter project)
-| arduino | self explanatory| $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| male to male wires  | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| motor | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
--->
+| arduino uno | | ~$27.60 | [LINK]([url](https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/ref=asc_df_B008GRTSV6/?tag=hyprod-20&linkCode=df0&hvadid=692875362841&hvpos=&hvnetw=g&hvrand=16666681611808991928&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-2281435179978&psc=1&mcid=8d4415853f19330eb6cb8c1e7f18a8ed&hvocijid=16666681611808991928-B008GRTSV6-&hvexpln=73&gad_source=1))
+|QTEATAK button  | used to initiate motors | $5.99 for a set of one hundred and twenty |[LINK]([url](https://www.amazon.com/QTEATAK-Momentary-Tactile-Button-Switch/dp/B07VSNN9S2/ref=asc_df_B07VSNN9S2/?tag=hyprod-20&linkCode=df0&hvadid=692875362841&hvpos=&hvnetw=g&hvrand=3902747494344092328&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-2281435178058&psc=1&mcid=3105465e56ba3d87acce02ed42044e08&hvocijid=3902747494344092328-B07VSNN9S2-&hvexpln=73&gad_source=1)) |
+| DC motor || $6.99 for a pack of six | [LINK]([url](https://www.amazon.com/Topoox-15000-16500RPM-Electric-Science-Experiments/dp/B073Q2Y3RC/ref=asc_df_B073Q2Y3RC/?tag=hyprod-20&linkCode=df0&hvadid=692875362841&hvpos=&hvnetw=g&hvrand=2476635652248431690&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-2281435178098&psc=1&mcid=57669cff5557399f96c7b69fe1a26a6f&hvocijid=2476635652248431690-B073Q2Y3RC-&hvexpln=73&gad_source=1)) |
 
 
 
-<!--# Schematics (starter project)
-Here's where you'll put images of your schematics.
-[Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
--->
 
 
 
