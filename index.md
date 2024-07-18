@@ -1,5 +1,5 @@
 # Autonomous Car 
-<h2> The self driving car project is a miniture representation of  autonomous of vehicular transportation. With the ability to drive, navigate obstacles, modify pace to match surroundings, detect other vehicles and moving objects, the car demonstrates the future of transportation. </h2>
+<h2> The self driving car project is a miniature representation of  autonomous of vehicular transportation. With the ability to drive, navigate obstacles, modify pace to match surroundings, detect other vehicles and moving objects, the car demonstrates the future of transportation. </h2>
 
 
 
