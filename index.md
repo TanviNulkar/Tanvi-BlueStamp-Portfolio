@@ -1,5 +1,5 @@
 # Autonomous Car 
-<h3> The self driving car project is a miniature representation of  autonomous of vehicular transportation. With the ability to drive, navigate obstacles, modify pace to match surroundings, detect other vehicles and moving objects, the car demonstrates the future of transportation. </h3>
+<h3> The self driving car project is a miniature representation of autonomous vehicular transportation. With the ability to drive, navigate obstacles, modify pace to match surroundings, and detect moving objects, this car demonstrates the future of transportation. </h3>
 
 
 
@@ -24,32 +24,31 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8s18SXfUqbU?si=mNxjnmbxFKdWFP-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-The car I elected to build this summer at BlueStamp engineering is based off the autonomous car project by sunfounder.org. From their original design, I have modified the project significantly. I have added three more ultrasonic sensors, headlights, side-lights, tail-lights, programmed the tail-lights, a piezzo passive buzzer, and a programmed on/off switch. in addition to adding components, I also removed the line track sensor seen in the original design. This was removed because it no longerwas required for my desired outcome for the project. I added all of the modifications listed prior to give the car the ability to preform alike to modern day self driving cars, such as Tesla and Waymo. This led to the incorporation of more sensors and physical features, both that would allow for greater representation. 
+The car I elected to build this summer at BlueStamp engineering is based off the autonomous car project by sunfounder.org. From their original design, I have modified the project significantly. I have added three more ultrasonic sensors, headlights, side-lights, and tail-lights. I have also programmed the tail-lights, added a piezzo passive buzzer, and a programmed on/off switch. in addition to adding components, I also removed the line track sensor from the original design. This was removed because it was no longer necessary to the outcome of the project. I added all of these modifications to give the car the ability to preform and appear like  modern day self driving cars, such as Tesla and Waymo. This led to the incorporation of more sensors and physical features, both that  allow for greater representation. 
 
-from the standpoint of sensors, the additional ultrasonic sensors allow for the car to have a greatrer understanding of its own environment. This added feature is accompanied by the removal of the line track sensor, as I deemed it unecessary and was therefore using much needed GPIO pins. For the physical features, I added the headlights, sidelights, and tailights, to further give the impression that the car was a model of the larger and much more complex self driving cars. the headlights and sidelights run through a basic circuit by being connected to power and ground. in the case of the tailights, the tailights are programmed to signal to spectators the direction the car is to turn. The left and right lights are individually programmed. this gives the car the ability to signal left and rght movements, as well as breaking and stopping. For audio features, I had the desire to add a 'horn'. My vision for the horn was for it to go off, or produce sound, when the car detected an object that was too close (less than 5 inches). For this purpose I have used the piezo passive buzzer. This buzzer has been programmed to go off whenever an object is detected within 3 inches of the frontmost ultrasonic sensor. Finally, for convienence purposes, I have also added an initiation or on/off switch. This is to allow for greater controll over powering on and off, as well as further demonstration of the tailight coding. through my code, I have programmed the car to only preform its designated functions when the switch is turned on, and to stop all functions when off. the car is also programmed to have both tailights on when the initiation switch is put into the 'off' state. 
+From the standpoint of sensors, the additional ultrasonic sensors allow for the car to have a greatrer understanding of its own environment. This added feature is accompanied by the removal of the line track sensor, as I deemed it unecessary and therefore removed it to free GPIO pins. For the physical features, I added the headlights, sidelights, and tailights, to further give the impression that the car was a model of the larger and much more complex self driving cars. the headlights and sidelights run through a basic circuit by being connected to power and ground. in the case of the tailights, the tailights are programmed to signal to spectators the direction the car is to turn. The left and right lights are individually programmed. this gives the car the ability to signal left and rght movements, as well as breaking and stopping. For audio features, I had the desire to add a 'horn'. My vision for the horn was for it to go off, or produce sound, when the car detected an object that was too close (less than 5 inches). For this purpose I have used the piezo passive buzzer. This buzzer has been programmed to go off whenever an object is detected within 3 inches of the frontmost ultrasonic sensor. Finally, for convienence purposes, I have also added an initiation or on/off switch. This is to allow for greater controll over powering on and off, as well as further demonstration of the tailight coding. through my code, I have programmed the car to only preform its designated functions when the switch is turned on, and to stop all functions when off. the car is also programmed to have both tailights on when the initiation switch is put into the 'off' state. 
 
-To support the addition of hardware, I also 3D printed 4 standoffs and 2 upper levels to support the 2 additional untrasonic sensors, piezobuzzer, and all of the electronics that access power and ground through the elevated breadboards. The levels also served the purpose of creating space closer to the acrylic board for pieces such as additional breadboards, the initiation switch, and the LED wiring. 
-
-overall, the modifications I have added to the original car kit or design by sunfounder.org, have all been added with the aim of giving the car the level of control and apperence of modern day autonomouds vehicles. All modifications were added to my current ability as an engineer. If given more time, I would hve attempted to add a covering for all the wires to give a streamlined apperence, and gone back to the code to make it smoother and more efficiant. 
+Overall, the modifications I have added to the original car kit or design by sunfounder.org, have all been added with the aim of giving the car the level of control and apperence of modern day autonomouds vehicles. All modifications were added to my current ability as an engineer. If given more time, I would hve attempted to add a covering for all the wires to give a streamlined apperence, and gone back to the code to make it smoother and more efficiant. 
 
 <h2> 3D printing</h2>
 
-When adding my modifications, it soon became clear that I was running out of space on the bottom acrylic plate. To solve this issue I resolved to add a elevated layer, or level, to allow for space to mount the extra electronics and sensors. To create this layer, I initially elected to construct the structure using custom printed standoffs, to act as pillars, and cardboard to be the main platform (figure 1a). This design was quite durable and sturdy, but as time drew on, I desired for the apperence of the structure to look more finished and elevated, thus I turned to 3D printing to create this custom platforms. (figure 1b). To secure the platforms, I printed the standoffs to screw into some extra holes on the acrylic plate. I had a few issues with this, such as the standoffs being to wide or tiny for the screws to fasten the standoffs through the plate. Eventually, I learned that I have accidently turned off some features that were leading to prints bring printed a couple millimeters larger than the original design. (scroll below to see figures)
+To support the addition of hardware, I  3D printed 4 standoffs and 2 upper levels to support the 2 additional untrasonic sensors, piezobuzzer, and all of the electronics that access power and ground through the elevated breadboards. The levels also served the purpose of creating space underneath for pieces such as additional breadboards, the initiation switch, and the LED wiring. 
 
+To create this layer, I initially elected to construct the structure using custom printed standoffs, to act as pillars, and cardboard to be the main platform (figure 1a). This design was quite durable and sturdy, but as time drew on, I desired for the apperence of the structure to look more finished and elevated, thus I turned to 3D printing to create this custom platforms. (figure 1b). To secure the platforms, I printed the standoffs to screw into some extra holes on the acrylic plate. I had a few issues with this, such as the standoffs being to wide or tiny for the screws to fasten the standoffs through the plate. Eventually, I learned that I have accidently turned off some features that were leading to prints bring printed a couple millimeters larger than the original design. (scroll below to see figures)
 
-
-
-( figure 1a)- original cardboard platforms supported by 3d printed standoffs
  
  ![IMG_9315 Small](https://github.com/user-attachments/assets/631af4cc-f2ff-4668-80de-c6a5d01dca84)
 
  
+f(1a)- original cardboard platforms supported by 3d printed standoffs
+ 
 
- (figure(1b)-final 3D printed platforms with all electronics mounted 
+
  
  ![IMG_9436 Small](https://github.com/user-attachments/assets/55faa3c9-3ca0-49f0-a32a-4e61d68051f1)
 
 
+ f(1b)-final 3D printed platforms with all electronics mounted 
 
 
 
@@ -63,10 +62,15 @@ One of the most significant and time intesive modifications I have added to my p
 
  ![Screenshot 2024-07-18 at 12 42 14 PM Large](https://github.com/user-attachments/assets/c98bcb0b-b4f3-460e-abfa-b381762dc919)
 
- (figure 1c)- diagram of ultraonic sensor detection and autonomous car's response 
+ f(1c)- diagram of ultraonic sensor detection and autonomous car's response 
 
  
 Another one of my more signigicant modifications was adding 3 more additional sensors to the original self driving car design by sunfounder.org. I programmed the sensors to work in tandem with one another, enhancing the car's understanding of its environment and control. One challenge I faced with the addition of more sensors, is having my car go into a state of confusion. When cars go into a state of confusion, it means that the robot is unsure what sensor to take input from, leading to the car being essentially unable to move. I fixed this by going through my code and deleting confilicting code. The final commands I used on my car can be seen above in figure (1c)
+
+![Screenshot 2024-07-19 at 12 19 52 PM Small](https://github.com/user-attachments/assets/f5e452c8-4b6f-4c13-9d17-7320dfdd45f9)
+
+f(1t)- diagram of ultrasonic senosor workings (image credit to randomnerdtutorials.com)
+
   
   
 
@@ -79,9 +83,9 @@ Another one of my more signigicant modifications was adding 3 more additional se
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9kXuZPwO3T4?si=EVWvNJbYgf0Bgdcz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-for my third milestone, and final milestone, I have smoothed out my code, added three more ultrasonic sensors, and an initiation switch.  the ultrasonic sensors were added to give the car a better understanding of it's environment and more control over navigation. I added the on/off switch to minimize the hassle of powering the robot on/off. From a technical standpoint, the ultrasonic sensors work by transmitting infrared waves, and based off the frequency of waves returning to the sensor, the robot is able to determine how far it is from a given object. Furthermore, the on/off switch works predominantly through code, where the arduino is told, that when the switch is turned on the car must preform the code, and when the switch is turned off to stop all movement. Reflecting on my time at BlueStamp, I faced quite a few challenges, some of them being the imbalanced motors, difficulty interpreting instructions, and unfimiliarity with electronic devices and instruments. I overcame all of these challenges through research and diligent work. On the flipside, some of my biggest triumphs at BlueStamp were finally getting the car to move in all four directions, independently being able to program my autonomous car, and implementing modifications independently. Following the conclusion of BlueStamp, I hope to constinue to learn more about robotics and how to create a further autonomous robots using a variety of techniques.
+For my third milestone, and final milestone, I have smoothed out my code, added three more ultrasonic sensors, and an initiation switch. The ultrasonic sensors were added to give the car a better understanding of it's environment and more control over navigation. I added the on/off switch to minimize the hassle of powering the robot on/off. From a technical standpoint, the ultrasonic sensors work by transmitting infrared waves, and based off the frequency of waves returning to the sensor, the robot is able to determine how far it is from a given object. Furthermore, the on/off switch works predominantly through code, where the arduino is told, that when the switch is turned on the car must preform the code, and when the switch is turned off to stop all movement. Reflecting on my time at BlueStamp, I faced quite a few challenges, some of them being the imbalanced motors, difficulty interpreting instructions, and unfimiliarity with electronic devices and instruments. I overcame all of these challenges through research and diligent work. On the flipside, some of my biggest triumphs at BlueStamp were finally getting the car to move in all four directions, independently being able to program my autonomous car, and implementing modifications independently. Following the conclusion of BlueStamp, I hope to constinue to learn more about robotics and how to create a further autonomous robots using a variety of techniques.
 
-(figure 1D)- finished appearence of the self-driving car
+figure(1D)- finished appearence of the self-driving car
 
 ![IMG_9423 Small](https://github.com/user-attachments/assets/76e11aec-9b73-4334-9e70-88d8b6fd035b)
 
@@ -102,7 +106,7 @@ over the course of my six weeks at BlueStamp engineering, I learned many lessons
 
 For my second milestone, I elected to program the line sensor, ultrasonic, and object sensors. Given the application of these sensors, the robotic car is now able to navigate its environment autonomously. The new sensors allow the car to function by helping the car to detect objects, thus allowing it to manuver around obstacles. Some issues I have run ito when attatching and programming the sensors were: incorrect use of digitalWrite and analogWrite, poor sensor sensetivity, and failing to state integers in void setup. Through a dedicated week, I was able to work through these challenges and was eventually able to get my car to maneuver its environment by itself. As stated in the previous milestone, I also faced the challenge of having imbalanced motors, I was able to fix this through adjusting the speed of the individual motors. Next, for my third milestone, I plan to adjust the sensors and coding so the car is able to move smoothly. I also plan to program an initiation button to make the process of turning the car on an off more efficiant. 
 
-(figure 1k)-Drive base with added obbstacle detectors 
+f(1k)-Drive base with added obbstacle detectors 
 
 ![Screenshot 2024-07-19 at 11 44 05 AM Small](https://github.com/user-attachments/assets/38f0890d-c031-4ebc-8b3e-028dd5b39691)
 
@@ -124,7 +128,7 @@ For my second milestone, I elected to program the line sensor, ultrasonic, and o
 
 The project I chose to build this summer at BlueStamp is the self drving, or autonomous car. The self driving car project,  is a robot that is able to navigate through a course with no human intervention. The end result car should be able to detect and navigate around crosswalks, moving objects, static objects, vehicles, as well as stay in the correct lane (figure 3g).  For my first milestone, I have constructed a basic circuit on the drive base that allows the robot car to move forward continously. From a technical standpoint, the circiuit works by deriving power provided by the 9v battery that is then directed to the arduino and distributed to the motors. Because of this, the car is moving continuously in a straight plane with no stoping point or directional change. Some challenges I faced in the construction so far are having to restart due to not having the correct instruction manual, and reciving motors that did not have the same base speed. I eventually plan to fix this imbalance in milestone 2, along with adding directional commands using the line tracking and object detecting sensors.
 
-(figure 3g)- basic wiring on acrylic base 
+f(3g)- basic wiring on acrylic base 
 
 ![Screenshot 2024-07-19 at 11 35 39 AM Small](https://github.com/user-attachments/assets/d39faa6c-e52f-46a1-891c-92cca10feeb6)
 
@@ -604,6 +608,7 @@ void loop() {
 
 
 # Bill of Materials for Starter Project
+
 |**Part**|**Notes**|**Cost**|**Link**|
 |:--:|:--:|:--:|:--:|
 | arduino uno | | ~$27.60 | [LINK]([url](https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/ref=asc_df_B008GRTSV6/?tag=hyprod-20&linkCode=df0&hvadid=692875362841&hvpos=&hvnetw=g&hvrand=16666681611808991928&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-2281435179978&psc=1&mcid=8d4415853f19330eb6cb8c1e7f18a8ed&hvocijid=16666681611808991928-B008GRTSV6-&hvexpln=73&gad_source=1))|
