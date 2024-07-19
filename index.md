@@ -13,14 +13,8 @@
 |Tanvi N. | Notre Dame San Jose | MedTech |  Incoming Sophmore 
 
 
- <div class="image-container"
->
-        <img src="![Tanvi_N Medium](https://github.com/user-attachments/assets/a2833186-9203-42d3-83cd-3e98233a1c96)" alt="Image 1" width="200">
-    </div>
-    <div class="image-container">
-        <img src="
-![IMG_9315 Small](https://github.com/user-attachments/assets/92d9ca7b-395a-44da-95d3-7859bb216679)" alt="Image 2" width="200">
-    </div>
+![Tanvi_N Medium](https://github.com/user-attachments/assets/d90eba92-3beb-4809-bdf9-f19fb58101a2)
+
  
 
 
@@ -30,7 +24,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8s18SXfUqbU?si=mNxjnmbxFKdWFP-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-the car I elected to build this summer at BlueStamp engineering is based off the autonomous car project by sunfounder.org. From their original design, I have modified the project significantly. I have added three more ultrasonic sensors, headlights, side-lights, tail-lights, programmed the tail-lights, a piezzo passive buzzer, and a programmed on/off switch. in addition to adding components, I also removed the line track sensor seen in the original design. This was removed because it no longerwas required for my desired outcome for the project. I added all of the modifications listed prior to give the car the ability to preform alike to modern day self driving cars, such as Tesla and Waymo. This led to the incorporation of more sensors and physical features, both that would allow for greater representation. 
+The car I elected to build this summer at BlueStamp engineering is based off the autonomous car project by sunfounder.org. From their original design, I have modified the project significantly. I have added three more ultrasonic sensors, headlights, side-lights, tail-lights, programmed the tail-lights, a piezzo passive buzzer, and a programmed on/off switch. in addition to adding components, I also removed the line track sensor seen in the original design. This was removed because it no longerwas required for my desired outcome for the project. I added all of the modifications listed prior to give the car the ability to preform alike to modern day self driving cars, such as Tesla and Waymo. This led to the incorporation of more sensors and physical features, both that would allow for greater representation. 
 
 from the standpoint of sensors, the additional ultrasonic sensors allow for the car to have a greatrer understanding of its own environment. This added feature is accompanied by the removal of the line track sensor, as I deemed it unecessary and was therefore using much needed GPIO pins. For the physical features, I added the headlights, sidelights, and tailights, to further give the impression that the car was a model of the larger and much more complex self driving cars. the headlights and sidelights run through a basic circuit by being connected to power and ground. in the case of the tailights, the tailights are programmed to signal to spectators the direction the car is to turn. The left and right lights are individually programmed. this gives the car the ability to signal left and rght movements, as well as breaking and stopping. For audio features, I had the desire to add a 'horn'. My vision for the horn was for it to go off, or produce sound, when the car detected an object that was too close (less than 5 inches). For this purpose I have used the piezo passive buzzer. This buzzer has been programmed to go off whenever an object is detected within 3 inches of the frontmost ultrasonic sensor. Finally, for convienence purposes, I have also added an initiation or on/off switch. This is to allow for greater controll over powering on and off, as well as further demonstration of the tailight coding. through my code, I have programmed the car to only preform its designated functions when the switch is turned on, and to stop all functions when off. the car is also programmed to have both tailights on when the initiation switch is put into the 'off' state. 
 
@@ -40,16 +34,19 @@ overall, the modifications I have added to the original car kit or design by sun
 
 <h2> 3D printing</h2>
 
-When adding my modifications, it soon became clear that I was running out of space on the bottom acrylic plate. To solve this issue I resolved to add a elevated layer, or level, to allow for space to mount the extra electronics and sensors. To create this layer, I initially elected to construct the structure using custom printed standoffs, to act as pillars, and cardboard to be the main platform (figure 1a). This design was quite durable and sturdy, but as time drew on, I desired for the apperence of the structure to look more finished and elevated, thus I turned to 3D printing to create this custom platforms. (figure 1b). To secure the platforms, I printed the standoffs to screw into some extra holes on the acrylic plate. I had a few issues with this, such as the standoffs being to wide or tiny for the screws to fasten the standoffs through the plate. Eventually, I learned that I have accidently turned off some features that were leading to prints being printed a couple millimeters larger than the original design. 
+When adding my modifications, it soon became clear that I was running out of space on the bottom acrylic plate. To solve this issue I resolved to add a elevated layer, or level, to allow for space to mount the extra electronics and sensors. To create this layer, I initially elected to construct the structure using custom printed standoffs, to act as pillars, and cardboard to be the main platform (figure 1a). This design was quite durable and sturdy, but as time drew on, I desired for the apperence of the structure to look more finished and elevated, thus I turned to 3D printing to create this custom platforms. (figure 1b). To secure the platforms, I printed the standoffs to screw into some extra holes on the acrylic plate. I had a few issues with this, such as the standoffs being to wide or tiny for the screws to fasten the standoffs through the plate. Eventually, I learned that I have accidently turned off some features that were leading to prints bring printed a couple millimeters larger than the original design. (scroll below to see figures)
 
 
-
+<pre style="background:#fdfdfd; border:none; height:30pc">
 
 
  ![IMG_9315 Small](https://github.com/user-attachments/assets/631af4cc-f2ff-4668-80de-c6a5d01dca84)
  figure (1a): original cardboard platforms supported by 3d printed standoffs
+ 
  ![IMG_9436 Small](https://github.com/user-attachments/assets/55faa3c9-3ca0-49f0-a32a-4e61d68051f1)
  figure(1b): final 3D printed platforms with all electronics mounted 
+
+</pre>
 
 
 <h2> Programmed LED Tailights</h2>
@@ -75,6 +72,7 @@ I programmed the sensors to work in tandem with one another, enhancing the car's
   
 # Final Milestone (7/10/24)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9kXuZPwO3T4?si=EVWvNJbYgf0Bgdcz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 for my third milestone, and final milestone, I have smoothed out my code, added three more ultrasonic sensors, and an initiation switch.  the ultrasonic sensors were added to give the car a better understanding of it's environment and more control over navigation. I added the on/off switch to minimize the hassle of powering the robot on/off. From a technical standpoint, the ultrasonic sensors work by transmitting infrared waves, and based off the frequency of waves returning to the sensor, the robot is able to determine how far it is from a given object. Furthermore, the on/off switch works predominantly through code, where the arduino is told, that when the switch is turned on the car must preform the code, and when the switch is turned off to stop all movement. Reflecting on my time at BlueStamp, I faced quite a few challenges, some of them being the imbalanced motors, difficulty interpreting instructions, and unfimiliarity with electronic devices and instruments. I overcame all of these challenges through research and diligent work. On the flipside, some of my biggest triumphs at BlueStamp were finally getting the car to move in all four directions, independently being able to program my autonomous car, and implementing modifications independently. Following the conclusion of BlueStamp, I hope to constinue to learn more about robotics and how to create a further autonomous robots using a variety of techniques.
 
@@ -522,6 +520,8 @@ if (switchState==HIGH){
 | Acrylic plate | main component for car body |
 | Jump wires M/M | wiring  |
 | Jump Wires F/F | wiring |
+
+
 
 
 
