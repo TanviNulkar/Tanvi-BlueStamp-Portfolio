@@ -13,8 +13,15 @@
 |Tanvi N. | Notre Dame San Jose | MedTech |  Incoming Sophmore 
 
 
-
- ![Tanvi_N Medium](https://github.com/user-attachments/assets/cba16d9a-66a4-4d3e-8b66-dd4184a04624)
+ <div class="image-container"
+>
+        <img src="![Tanvi_N Medium](https://github.com/user-attachments/assets/a2833186-9203-42d3-83cd-3e98233a1c96)" alt="Image 1" width="200">
+    </div>
+    <div class="image-container">
+        <img src="
+![IMG_9315 Small](https://github.com/user-attachments/assets/92d9ca7b-395a-44da-95d3-7859bb216679)" alt="Image 2" width="200">
+    </div>
+ 
 
 
 
@@ -35,17 +42,32 @@ overall, the modifications I have added to the original car kit or design by sun
 
 When adding my modifications, it soon became clear that I was running out of space on the bottom acrylic plate. To solve this issue I resolved to add a elevated layer, or level, to allow for space to mount the extra electronics and sensors. To create this layer, I initially elected to construct the structure using custom printed standoffs, to act as pillars, and cardboard to be the main platform (figure 1a). This design was quite durable and sturdy, but as time drew on, I desired for the apperence of the structure to look more finished and elevated, thus I turned to 3D printing to create this custom platforms. (figure 1b). To secure the platforms, I printed the standoffs to screw into some extra holes on the acrylic plate. I had a few issues with this, such as the standoffs being to wide or tiny for the screws to fasten the standoffs through the plate. Eventually, I learned that I have accidently turned off some features that were leading to prints being printed a couple millimeters larger than the original design. 
 
+
+
+
+
+ ![IMG_9315 Small](https://github.com/user-attachments/assets/631af4cc-f2ff-4668-80de-c6a5d01dca84)
+ figure (1a): original cardboard platforms supported by 3d printed standoffs
+ ![IMG_9436 Small](https://github.com/user-attachments/assets/55faa3c9-3ca0-49f0-a32a-4e61d68051f1)
+ figure(1b): final 3D printed platforms with all electronics mounted 
+
+
 <h2> Programmed LED Tailights</h2>
 
 One of the most significant and time intesive modifications I have added to my project by far, are the tailights. The tailights function just as those in real cars, signaling to spectators when the car is turning left or right, moving backwards or when the car is coming to a full stop. I have individually programmed the left and right tailights, which are each connected to ground and their own respective GPIO pins. 
- 
-  
-  
- [IMG_9292 Small](https://github.com/user-attachments/assets/b46c6b1d-69c5-41d1-8fcc-ffd3755a77b2) 
- figure (1a): original cardboard platforms supported by 3d printed standoffs
 
- ![IMG_9436 Small](https://github.com/user-attachments/assets/55faa3c9-3ca0-49f0-a32a-4e61d68051f1)
- figure(1b): final 3D printed platforms with all electronics mounted 
+
+<h2> Extra Ultrasonic sensors</h2>
+
+ 
+ ![Screenshot 2024-07-18 at 12 42 14 PM Large](https://github.com/user-attachments/assets/c98bcb0b-b4f3-460e-abfa-b381762dc919)
+figure (1b)
+ 
+Part of my modification was adding 3 more additional sensors to the original self driving car design by sunfounder.org
+I programmed the sensors to work in tandem with one another, enhancing the car's understanding of its environment and control. One challenge I faced with the addition of more sensors, is having my car go into a state of confusion. When cars go into a state of confusion, it means that the robot is unsure what sensor to take input from, leading to the car being essentially unable to move. I fixed this by going through my code and deleting confilicting code. The final commands I used on my car can be seen above in figure (1c)
+  
+  
+
 
 
  
