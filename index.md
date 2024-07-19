@@ -39,12 +39,16 @@ When adding my modifications, it soon became clear that I was running out of spa
 
 
 
-
+( figure 1a)- original cardboard platforms supported by 3d printed standoffs
+ 
  ![IMG_9315 Small](https://github.com/user-attachments/assets/631af4cc-f2ff-4668-80de-c6a5d01dca84)
- figure (1a): original cardboard platforms supported by 3d printed standoffs
+
+ 
+
+ (figure(1b)-final 3D printed platforms with all electronics mounted 
  
  ![IMG_9436 Small](https://github.com/user-attachments/assets/55faa3c9-3ca0-49f0-a32a-4e61d68051f1)
- figure(1b): final 3D printed platforms with all electronics mounted 
+
 
 
 
@@ -56,12 +60,13 @@ One of the most significant and time intesive modifications I have added to my p
 
 <h2> Extra Ultrasonic sensors</h2>
 
- figure (1c)
+
  ![Screenshot 2024-07-18 at 12 42 14 PM Large](https://github.com/user-attachments/assets/c98bcb0b-b4f3-460e-abfa-b381762dc919)
 
+ (figure 1c)- diagram of ultraonic sensor detection and autonomous car's response 
+
  
-Part of my modification was adding 3 more additional sensors to the original self driving car design by sunfounder.org
-I programmed the sensors to work in tandem with one another, enhancing the car's understanding of its environment and control. One challenge I faced with the addition of more sensors, is having my car go into a state of confusion. When cars go into a state of confusion, it means that the robot is unsure what sensor to take input from, leading to the car being essentially unable to move. I fixed this by going through my code and deleting confilicting code. The final commands I used on my car can be seen above in figure (1c)
+Another one of my more signigicant modifications was adding 3 more additional sensors to the original self driving car design by sunfounder.org. I programmed the sensors to work in tandem with one another, enhancing the car's understanding of its environment and control. One challenge I faced with the addition of more sensors, is having my car go into a state of confusion. When cars go into a state of confusion, it means that the robot is unsure what sensor to take input from, leading to the car being essentially unable to move. I fixed this by going through my code and deleting confilicting code. The final commands I used on my car can be seen above in figure (1c)
   
   
 
@@ -76,8 +81,10 @@ I programmed the sensors to work in tandem with one another, enhancing the car's
 
 for my third milestone, and final milestone, I have smoothed out my code, added three more ultrasonic sensors, and an initiation switch.  the ultrasonic sensors were added to give the car a better understanding of it's environment and more control over navigation. I added the on/off switch to minimize the hassle of powering the robot on/off. From a technical standpoint, the ultrasonic sensors work by transmitting infrared waves, and based off the frequency of waves returning to the sensor, the robot is able to determine how far it is from a given object. Furthermore, the on/off switch works predominantly through code, where the arduino is told, that when the switch is turned on the car must preform the code, and when the switch is turned off to stop all movement. Reflecting on my time at BlueStamp, I faced quite a few challenges, some of them being the imbalanced motors, difficulty interpreting instructions, and unfimiliarity with electronic devices and instruments. I overcame all of these challenges through research and diligent work. On the flipside, some of my biggest triumphs at BlueStamp were finally getting the car to move in all four directions, independently being able to program my autonomous car, and implementing modifications independently. Following the conclusion of BlueStamp, I hope to constinue to learn more about robotics and how to create a further autonomous robots using a variety of techniques.
 
-(figure 1D)- finished appearence of my self-driving car
-![IMG_9423 Medium](https://github.com/user-attachments/assets/ffe27186-1b9f-4373-8cd9-8812f92d3ce7)
+(figure 1D)- finished appearence of the self-driving car
+
+![IMG_9423 Small](https://github.com/user-attachments/assets/76e11aec-9b73-4334-9e70-88d8b6fd035b)
+
 
 
 # Key Lessons Learned
@@ -95,6 +102,10 @@ over the course of my six weeks at BlueStamp engineering, I learned many lessons
 
 For my second milestone, I elected to program the line sensor, ultrasonic, and object sensors. Given the application of these sensors, the robotic car is now able to navigate its environment autonomously. The new sensors allow the car to function by helping the car to detect objects, thus allowing it to manuver around obstacles. Some issues I have run ito when attatching and programming the sensors were: incorrect use of digitalWrite and analogWrite, poor sensor sensetivity, and failing to state integers in void setup. Through a dedicated week, I was able to work through these challenges and was eventually able to get my car to maneuver its environment by itself. As stated in the previous milestone, I also faced the challenge of having imbalanced motors, I was able to fix this through adjusting the speed of the individual motors. Next, for my third milestone, I plan to adjust the sensors and coding so the car is able to move smoothly. I also plan to program an initiation button to make the process of turning the car on an off more efficiant. 
 
+(figure 1k)-Drive base with added obbstacle detectors 
+
+![Screenshot 2024-07-19 at 11 44 05 AM Small](https://github.com/user-attachments/assets/38f0890d-c031-4ebc-8b3e-028dd5b39691)
+
 
 <!--For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
@@ -111,7 +122,15 @@ For my second milestone, I elected to program the line sensor, ultrasonic, and o
 
 
 
-The project I chose to build this summer at BlueStamp is the self drving, or autonomous car. The self driving car project,  is a robot that is able to navigate through a course with no human intervention. The end result car should be able to detect and navigate around crosswalks, moving objects, static objects, vehicles, as well as stay in the correct lane.  For my first milestone, I have constructed a basic circuit on the drive base that allows the robot car to move forward continously. From a technical standpoint, the circiuit works by deriving power provided by the 9v battery that is then directed to the arduino and distributed to the motors. Because of this, the car is moving continuously in a straight plane with no stoping point or directional change. Some challenges I faced in the construction so far are having to restart due to not having the correct instruction manual, and reciving motors that did not have the same base speed. I eventually plan to fix this imbalance in milestone 2, along with adding directional commands using the line tracking and object detectiting sensors. 
+The project I chose to build this summer at BlueStamp is the self drving, or autonomous car. The self driving car project,  is a robot that is able to navigate through a course with no human intervention. The end result car should be able to detect and navigate around crosswalks, moving objects, static objects, vehicles, as well as stay in the correct lane (figure 3g).  For my first milestone, I have constructed a basic circuit on the drive base that allows the robot car to move forward continously. From a technical standpoint, the circiuit works by deriving power provided by the 9v battery that is then directed to the arduino and distributed to the motors. Because of this, the car is moving continuously in a straight plane with no stoping point or directional change. Some challenges I faced in the construction so far are having to restart due to not having the correct instruction manual, and reciving motors that did not have the same base speed. I eventually plan to fix this imbalance in milestone 2, along with adding directional commands using the line tracking and object detecting sensors.
+
+(figure 3g)- basic wiring on acrylic base 
+
+![Screenshot 2024-07-19 at 11 35 39 AM Small](https://github.com/user-attachments/assets/d39faa6c-e52f-46a1-891c-92cca10feeb6)
+
+
+
+
 
 <!--For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
@@ -584,9 +603,9 @@ void loop() {
 
 
 
-#Bill of Materials (starter project)
-|**Part**|**Notes**|**Link**|
-|:-:|:-:|:-:|
+# Bill of Materials for Starter Project
+|**Part**|**Notes**|**Cost**|**Link**|
+|:--:|:--:|:--:|:--:|
 | arduino uno | | ~$27.60 | [LINK]([url](https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/ref=asc_df_B008GRTSV6/?tag=hyprod-20&linkCode=df0&hvadid=692875362841&hvpos=&hvnetw=g&hvrand=16666681611808991928&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-2281435179978&psc=1&mcid=8d4415853f19330eb6cb8c1e7f18a8ed&hvocijid=16666681611808991928-B008GRTSV6-&hvexpln=73&gad_source=1))|
 |QTEATAK button  | used to initiate motors | $5.99 for a set of one hundred and twenty |[LINK]([url](https://www.amazon.com/QTEATAK-Momentary-Tactile-Button-Switch/dp/B07VSNN9S2/ref=asc_df_B07VSNN9S2/?tag=hyprod-20&linkCode=df0&hvadid=692875362841&hvpos=&hvnetw=g&hvrand=3902747494344092328&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-2281435178058&psc=1&mcid=3105465e56ba3d87acce02ed42044e08&hvocijid=3902747494344092328-B07VSNN9S2-&hvexpln=73&gad_source=1)) |
 | DC motor || $6.99 for a pack of six | [LINK]([url](https://www.amazon.com/Topoox-15000-16500RPM-Electric-Science-Experiments/dp/B073Q2Y3RC/ref=asc_df_B073Q2Y3RC/?tag=hyprod-20&linkCode=df0&hvadid=692875362841&hvpos=&hvnetw=g&hvrand=2476635652248431690&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-2281435178098&psc=1&mcid=57669cff5557399f96c7b69fe1a26a6f&hvocijid=2476635652248431690-B073Q2Y3RC-&hvexpln=73&gad_source=1)) |
@@ -594,11 +613,6 @@ void loop() {
 
 
 
-
-
-
-
-<!--
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
