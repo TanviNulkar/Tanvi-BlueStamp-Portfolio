@@ -37,7 +37,7 @@ overall, the modifications I have added to the original car kit or design by sun
 When adding my modifications, it soon became clear that I was running out of space on the bottom acrylic plate. To solve this issue I resolved to add a elevated layer, or level, to allow for space to mount the extra electronics and sensors. To create this layer, I initially elected to construct the structure using custom printed standoffs, to act as pillars, and cardboard to be the main platform (figure 1a). This design was quite durable and sturdy, but as time drew on, I desired for the apperence of the structure to look more finished and elevated, thus I turned to 3D printing to create this custom platforms. (figure 1b). To secure the platforms, I printed the standoffs to screw into some extra holes on the acrylic plate. I had a few issues with this, such as the standoffs being to wide or tiny for the screws to fasten the standoffs through the plate. Eventually, I learned that I have accidently turned off some features that were leading to prints bring printed a couple millimeters larger than the original design. (scroll below to see figures)
 
 
-<pre style="background:#fdfdfd; border:none; height:30pc">
+
 
 
  ![IMG_9315 Small](https://github.com/user-attachments/assets/631af4cc-f2ff-4668-80de-c6a5d01dca84)
@@ -46,7 +46,7 @@ When adding my modifications, it soon became clear that I was running out of spa
  ![IMG_9436 Small](https://github.com/user-attachments/assets/55faa3c9-3ca0-49f0-a32a-4e61d68051f1)
  figure(1b): final 3D printed platforms with all electronics mounted 
 
-</pre>
+
 
 
 <h2> Programmed LED Tailights</h2>
@@ -56,9 +56,9 @@ One of the most significant and time intesive modifications I have added to my p
 
 <h2> Extra Ultrasonic sensors</h2>
 
- 
+ figure (1c)
  ![Screenshot 2024-07-18 at 12 42 14 PM Large](https://github.com/user-attachments/assets/c98bcb0b-b4f3-460e-abfa-b381762dc919)
-figure (1b)
+
  
 Part of my modification was adding 3 more additional sensors to the original self driving car design by sunfounder.org
 I programmed the sensors to work in tandem with one another, enhancing the car's understanding of its environment and control. One challenge I faced with the addition of more sensors, is having my car go into a state of confusion. When cars go into a state of confusion, it means that the robot is unsure what sensor to take input from, leading to the car being essentially unable to move. I fixed this by going through my code and deleting confilicting code. The final commands I used on my car can be seen above in figure (1c)
@@ -75,6 +75,9 @@ I programmed the sensors to work in tandem with one another, enhancing the car's
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9kXuZPwO3T4?si=EVWvNJbYgf0Bgdcz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 for my third milestone, and final milestone, I have smoothed out my code, added three more ultrasonic sensors, and an initiation switch.  the ultrasonic sensors were added to give the car a better understanding of it's environment and more control over navigation. I added the on/off switch to minimize the hassle of powering the robot on/off. From a technical standpoint, the ultrasonic sensors work by transmitting infrared waves, and based off the frequency of waves returning to the sensor, the robot is able to determine how far it is from a given object. Furthermore, the on/off switch works predominantly through code, where the arduino is told, that when the switch is turned on the car must preform the code, and when the switch is turned off to stop all movement. Reflecting on my time at BlueStamp, I faced quite a few challenges, some of them being the imbalanced motors, difficulty interpreting instructions, and unfimiliarity with electronic devices and instruments. I overcame all of these challenges through research and diligent work. On the flipside, some of my biggest triumphs at BlueStamp were finally getting the car to move in all four directions, independently being able to program my autonomous car, and implementing modifications independently. Following the conclusion of BlueStamp, I hope to constinue to learn more about robotics and how to create a further autonomous robots using a variety of techniques.
+
+(figure 1D)- finished appearence of my self-driving car
+![IMG_9423 Medium](https://github.com/user-attachments/assets/ffe27186-1b9f-4373-8cd9-8812f92d3ce7)
 
 
 # Key Lessons Learned
@@ -543,6 +546,7 @@ For my starter project, I chose the BlueStamp Arduino starter. Using a breadboar
 
 # Schematic of starter project
 ![IMG_1440 Medium](https://github.com/user-attachments/assets/ea2d11c0-ed12-4328-918c-d5b5ac25806e)
+
 *schematic created by Tanvi N. With procreate*
 
 
