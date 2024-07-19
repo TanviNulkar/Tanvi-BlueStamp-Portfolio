@@ -519,7 +519,7 @@ if (switchState==HIGH){
 For my starter project, I chose the BlueStamp Arduino starter. Using a breadboard, arduino, wires, button, and motor, I created a circuit that, when the button is pressed makes the motor spin. This project works by deriving power from the computer which is distributed by the arduino to the circuit. the motor is allowed to spin when the button is pressed, and the circuit is complete.  I chose this project because I thought that it would give me practice in skills I would need for my main project, the self driving car.  The main challenge I had when creating this project was soldering. It was a struggle to solder the arduino to the sheild at the angle required, forcing me to become creative with my soldering technique. Next, I will use these skills to aid in the construction of my self driving car.
 
 
-# Schematic for starter project
+# Schematic of starter project
 ![IMG_1440 Medium](https://github.com/user-attachments/assets/ea2d11c0-ed12-4328-918c-d5b5ac25806e)
 *schematic created by Tanvi N. With procreate*
 
