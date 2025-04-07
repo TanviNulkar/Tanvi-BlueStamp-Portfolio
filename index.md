@@ -10,7 +10,7 @@
 
 | **Name** | **School** | **Field of Intrest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-|Tanvi N. | Notre Dame San Jose | MedTech |  Incoming Sophmore 
+|Tanvi N. | Notre Dame San Jose | BioTech |   Sophmore 
 
 
 ![Tanvi_N Medium](https://github.com/user-attachments/assets/d90eba92-3beb-4809-bdf9-f19fb58101a2)
